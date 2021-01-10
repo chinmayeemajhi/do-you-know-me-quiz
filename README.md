@@ -1,4 +1,4 @@
 # do-you-know-me-quiz
 
-This is a quiz based on my personal data. 
+A CLI app built within node.js. You can send this to your friends and find out who really knows you. 
  
