@@ -19,11 +19,13 @@ function play(question, answer){
 
 
 var questionSet=[
-  {question: "what do I love?",answer: "Sleep"},
-  {question: "what do I want?",answer: "Money"},
-  {question: "where do I work?",answer: "Capgemini"},
+
+  {question: "what is my name?",answer: "Chinmayee"},
   {question: "where do I live?",answer: "Bargarh"},
-  {question: "what is my name?",answer: "Chinmayee"}
+  {question: "where do I work?",answer: "Capgemini"},
+  {question: "what do I want?",answer: "Unicorn"},
+  {question: "what do I love?",answer: "Sleep"}
+
 ]
 
 for(i=0; i<questionSet.length; i++){
@@ -32,7 +34,7 @@ for(i=0; i<questionSet.length; i++){
 console.log("-----------");
 console.log("Your final score :"+score);
 if(score<50){
-  console.log("Die!!!!");
+  console.log("Shame!!!!");
 }else{
   console.log("meh!");
 }
